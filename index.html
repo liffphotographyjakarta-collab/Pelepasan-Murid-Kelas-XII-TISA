@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pelepasan Murid Kelas XII SMAN 31 Jakarta 2026</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;600;900&family=Plus+Jakarta+Sans:wght@200;300;800&display=swap" rel="stylesheet">
+    <style>
+        :root { --bg: #030303; }
+        body { 
+            background-color: var(--bg); 
+            color: white; 
+            font-family: 'Inter', sans-serif;
+            overflow: hidden;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* Subtle Ambient Glow */
+        .ambient-light {
+            position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);
+            width: 80vw; height: 80vh;
+            background: radial-gradient(circle, rgba(255,255,255,0.03) 0%, transparent 70%);
+            z-index: -1;
+        }
+
+        /* Top Ticker (News Style) */
+        .ticker-container {
+            position: fixed; top: 0; left: 0; width: 100%;
+            background: rgba(255,255,255,0.02);
+            backdrop-filter: blur(15px);
+            padding: 14px 0; overflow: hidden;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+            z-index: 100;
+        }
+        .ticker-wrapper {
+            display: inline-block; animation: ticker 45s linear infinite;
+            white-space: nowrap;
+        }
+        @keyframes ticker {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+
+        .title-display {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            letter-spacing: -0.04em;
+            line-height: 1;
+        }
+
+        /* Modern Minimalist Button */
+        .btn-modern {
+            background: white; color: black;
+            transition: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+            position: relative;
+        }
+        .btn-modern:hover {
+            transform: scale(1.05);
+            box-shadow: 0 20px 40px rgba(255,255,255,0.1);
+        }
+
+        .reveal {
+            animation: reveal 2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+        }
+        @keyframes reveal {
+            from { opacity: 0; transform: translateY(40px); filter: blur(20px); }
+            to { opacity: 1; transform: translateY(0); filter: blur(0); }
+        }
+    </style>
+</head>
+<body class="flex flex-col items-center justify-center min-h-screen p-8">
+
+    <div class="ambient-light"></div>
+
+    <!-- Ticker News Style -->
+    <div class="ticker-container">
+        <div class="ticker-wrapper">
+            <span class="mx-16 text-[10px] font-medium tracking-[0.4em] uppercase opacity-40 italic">LIVE DOCUMENTATION — PELEPASAN SISWA KELAS XII SMAN 31 JAKARTA ANGKATAN 2026 — SHOT & CURATED BY SHOOTER PRODUCTION</span>
+            <span class="mx-16 text-[10px] font-medium tracking-[0.4em] uppercase opacity-40 italic">LIVE DOCUMENTATION — PELEPASAN SISWA KELAS XII SMAN 31 JAKARTA ANGKATAN 2026 — SHOT & CURATED BY SHOOTER PRODUCTION</span>
+        </div>
+    </div>
+
+    <main class="max-w-6xl w-full text-center space-y-12 reveal">
+        
+        <!-- Identity -->
+        <div class="space-y-4">
+            <h2 class="text-[10px] font-bold tracking-[0.6em] uppercase opacity-30">Shooter SMAN 31 Jakarta</h2>
+            <div class="h-[1px] w-8 bg-white/20 mx-auto"></div>
+        </div>
+
+        <!-- Headline -->
+        <div class="space-y-8">
+            <h1 class="title-display text-6xl md:text-[110px] font-extrabold uppercase italic">
+                MEMORI <br> <span class="font-light opacity-20 not-italic">HARI INI.</span>
+            </h1>
+            <p class="max-w-2xl mx-auto text-gray-400 text-sm md:text-lg font-light leading-relaxed tracking-wide px-4">
+                Hari ini adalah garis akhir, sekaligus awal yang baru. Seluruh momen, tawa, dan pelukan terakhir di acara pelepasan ini telah kami abadikan. Silakan unduh kenangan terakhir kita di sini.
+            </p>
+        </div>
+
+        <!-- Action -->
+        <div class="pt-6">
+            <a href="https://drive.google.com/drive/folders/1GckhPkIouRMkXMFdlSDPBNWB5SSF9gB1?usp=sharing" 
+               target="_blank" 
+               class="btn-modern px-16 py-5 rounded-full inline-flex items-center gap-6 text-[11px] font-black uppercase tracking-[0.3em]">
+                Ambil Foto & Video
+                <svg width="18" height="18" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+            </a>
+        </div>
+
+        <!-- Signature -->
+        <div class="pt-24">
+            <div class="inline-flex flex-col items-center">
+                <span class="text-[9px] font-bold uppercase tracking-[0.5em] opacity-20 mb-4 text-white">Project Lead</span>
+                <p class="text-[13px] font-medium tracking-[0.2em] uppercase">
+                    Powered by <span class="font-black">ALIF NUR HIDAYAT</span>
+                </p>
+                <p class="text-[9px] mt-2 tracking-widest text-gray-600 uppercase">Director of Photography & Creative Dev</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- UI Metadata -->
+    <div class="fixed bottom-8 left-10 text-[9px] font-light opacity-20 hidden md:block uppercase tracking-widest">
+        SMAN 31 JKT // PELEPASAN 2026
+    </div>
+    <div class="fixed bottom-8 right-10 text-[9px] font-light opacity-20 hidden md:block text-right uppercase tracking-widest">
+        Digital Archive v1.0<br>Shooter Production
+    </div>
+
+</body>
+</html>
